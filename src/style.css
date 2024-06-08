@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  background-color: #D0CBF3;
+  font-family: "Merriweather", serif;
+
+}
+
+.mother {
+  text-align: center;
+  padding: 60px;
+  margin: 200px 230px;
+  border-radius: 15px;
+  background-color: #1A1832;
+}
+
+button {
+  display: inline-flex;
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #b6bbd097;
+}
+
+#Title {
+  color: white;
+  padding-bottom: 20px;
+  font-weight: 700 ;
+  text-align: center;
+}
+
+.buttons input[type="button"] {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #1A2036;
+  height: 55px;
+  width: 55px;
+  color:#B6BBD0 ;
+  border-radius: 9px;
+  border: #b6bbd04b solid 1px;
+  margin: 5px;
+  font-family: "Merriweather", serif;
+  font-size: 25px ;
+  font-weight: 600;
+}
+
+.buttons input[type="button"]:hover {
+  border: #B6BBD0 solid 1px;
+   
+}
+
+.left {
+  color: #B6BBD0;
+  margin: 5px 0 0 2px;
+  text-align: left;
+  font-size: 10px;
+}
+
+.right {
+  color: #B6BBD0;
+  margin-top: 0px;
+  text-align: right;
+  font-size: 10px;
+
+
+}
+
+.Shipping input[type="reset"] {
+  background-color: #1b2139;
+  border-color: cornflowerblue;
+  color: white;
+  border-radius: 6px;
+  padding:6px 29px;
+  position: absolute;
+  left: 27%;
+  cursor: pointer;
+
+}
+
+.Shipping input[type="reset"]:hover{
+  background-color: rgba(128, 128, 128, 0.467);
+}
+
+.Shipping input[type="Submit"] {
+  background-color: rgb(110, 62, 207);
+  color: white;
+  border-radius: 6px;
+  padding:6px 29px;
+  position: absolute;
+  right: 27%;
+  border: none;
+  cursor: pointer;
+}
+
+.Shipping input[type="Submit"]:hover {
+  background-color: #B6BBD0;
+}
+
